@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_COMMON=sm8150-common
+VENDOR=xiaomi
+
 set -e
 
 # Load extract_utils and do some sanity checks
