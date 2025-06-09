@@ -1,5 +1,5 @@
-# All unpinned blobs below are extracted from vayu_global-user 13 RKQ1.200826.002 V14.0.3.0.TJUMIXM release-keys
+# All unpinned blobs below are extracted from LA.UM.9.1.r1-12900-SMxxx0.0
 
 # GNSS
-vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so;DISABLE_CHECKELF|3871c4be6f1d57cd11a0da7c44099111771f428d
-vendor/lib64/vendor.qti.gnss@4.0-service.so;DISABLE_CHECKELF|f97eea8b119fcaa62bb601c324977ef82806503d
+vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|3d358effa46123a84057a821816c44dc2506a6b5
+vendor/lib64/vendor.qti.gnss@4.0-service.so|d20a0fd214eb4f7aa2d4b2c2cd14ea2b120a49f5
