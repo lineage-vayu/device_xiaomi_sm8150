@@ -270,12 +270,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.android.nfc_extras.xml
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayCommon \
+    FrameworkResOverlayCommon \
+    LineageDialerOverlayCommon \
+    LineageSDKOverlayCommon \
+    SettingsOverlayCommon \
+    SettingsProviderOverlayCommon \
+    SystemUIOverlayCommon \
+    TelephonyOverlayCommon \
+    WifiResourcesOverlayCommon
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -305,9 +311,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # RIL
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlay \
-
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.cdma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.xml \
@@ -384,7 +387,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
