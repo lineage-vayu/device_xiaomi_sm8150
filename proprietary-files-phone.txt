@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from LA.UM.9.1.r1-12900-SMxxx0.0
+# All pinned blobs below are extracted from LA.UM.9.1.r1-12900-SMxxx0.0
 
 # GNSS
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|3d358effa46123a84057a821816c44dc2506a6b5
