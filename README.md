@@ -1,4 +1,13 @@
-# 📱 LineageOS common tree for Xiaomi sm8150 device tree
+```
+
+#
+# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) Yet Another AOSP Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
+# 📱 Common tree for Xiaomi sm8150 devices
 
 This repository contains the **common device tree** for Xiaomi devices powered by the **Qualcomm Snapdragon 855 family (SM8150)** platform. It is shared across multiple devices to simplify and unify support in AOSP-based custom ROMs.
 
